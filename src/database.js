@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 
 const mysqlConnection = mysql.createConnection({
-  host: 'localhost',
+  host: 'i1rf7b.stackhero-network.com',
   user: 'root',
-  password: '',
+  password: 'IFhkS7pD1QOvZ7fRZXuHDw5mPyDf0PB0',
   database: 'tienda_virtual',
   multipleStatements: true
 });
