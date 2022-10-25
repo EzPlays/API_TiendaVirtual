@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-10-2022 a las 18:08:08
--- Versión del servidor: 10.4.24-MariaDB
--- Versión de PHP: 8.1.6
+-- Tiempo de generación: 25-10-2022 a las 19:01:44
+-- Versión del servidor: 10.4.25-MariaDB
+-- Versión de PHP: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -135,7 +135,8 @@ INSERT INTO `usuarios` (`id`, `nombre_completo`, `correo`, `clave`) VALUES
 (1, 'examplename', 'example@gmail.co', 'Si1234'),
 (2, 'Emanuel', 'ezp@gmail.com', 'Ezp1225'),
 (3, 'maria nemecia', 'maria@gmail.com', 'Maria123'),
-(4, 'duver', 'duver@gmail.com', 'Duver123');
+(4, 'duver', 'duver@gmail.com', 'Duver123'),
+(5, 'jose', 'jose@gmail.com', 'Jose1234');
 
 --
 -- Índices para tablas volcadas
@@ -195,7 +196,7 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Restricciones para tablas volcadas
